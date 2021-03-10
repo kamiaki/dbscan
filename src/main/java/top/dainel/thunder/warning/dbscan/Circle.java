@@ -3,7 +3,7 @@ package top.dainel.thunder.warning.dbscan;
 import java.util.Arrays;
 
 /**
- * 用Circle来标记各个区域
+ * 用Circle来标记各个区域123
  */
 public class Circle  {
     private Double[] c=new Double[3];//c[0]->经度 c[1]->纬度 c[2]->半径
@@ -82,10 +82,10 @@ public class Circle  {
     public Double[] toArray(){
         return c;
     }
-    
+
 	@Override
 	public String toString() {
 		return "Circle [c=" + Arrays.toString(c) + "]";
 	}
-    
+
 }
